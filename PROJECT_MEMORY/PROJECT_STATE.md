@@ -12,9 +12,11 @@ A mobile-first, colourful catalogue-and-enquiry web application for Sneha Agenci
 - Icons: Lucide React
 - Styling: Custom Vanilla CSS (Design token architecture: Deep Aubergine `#191024`, Forest Green `#1d6f42`, Warm Cement `#f8f6f0`, Terracotta Red `#c24b2f`, Bison Yellow `#e5a93c`, Warm Orange `#e05e2b`, Charcoal `#1f2937`, Soft White `#ffffff`)
 - Deployment Target: Vercel (Production branch `main`, SPA rewrite rules in `vercel.json`, immutable asset caching)
+- Remote Repository: `https://github.com/lunacoderl/SnehaAgencies.git` (Tracked branch: `main`)
 
 ## Current Development Phase
-Phase 4: Complete Implementation & Build Verification
+Phase 5: Pushed to GitHub & Ready for Vercel Deployment
+
 
 ## Completed Features
 - [x] Initial project setup in `c:\Users\user\Desktop\Projects\sneha-agencies`

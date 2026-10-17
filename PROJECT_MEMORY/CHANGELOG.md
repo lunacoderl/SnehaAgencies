@@ -3,6 +3,33 @@
 All changes to this project are recorded here in reverse-chronological order.
 This file is append-only — do not rewrite or remove previous entries.
 
+## 2026-10-17 20:20
+
+### Task
+Fix CSS styling for Applications, Brands, About, Contact, and Quote pages; initialize Git repository; configure remote origin and commit/push to GitHub.
+
+### Result
+- Expanded `src/styles/utilities.css` with missing layout utilities (`top-0`, `bottom-0`, `z-*`, `h-80`, `h-96`, `min-h-[70vh]`, `flex-1`, `border-collapse`, `divide-y`, `divide-stone-200`, `list-disc`, `line-clamp-*`, `blur-3xl`, `bg-stone-50/50`, `focus:*`, `disabled:opacity-50`, `hover:*`, `group:hover *`, `animate-pulse`).
+- Updated `src/main.jsx` to explicitly import `./styles/utilities.css` before `./index.css` to guarantee CSS bundling.
+- Verified production build compiles cleanly in 4.93s (`dist/assets/index-*.css` 21.78 kB / 5.27 kB gzipped).
+- Initialized git repository with `main` branch, created comprehensive `README.md` with official credentials and developer commands, added `scratch/` to `.gitignore`.
+- Staged all 104 project files, created root commit `bdd54f7`, configured remote `origin` to `https://github.com/lunacoderl/SnehaAgencies.git`, tuned git `http.postBuffer` to 500MB for the 34MB catalog PDF, and initiated push.
+
+### Files Created
+- `README.md` (Sneha Agencies company info, GSTIN, proprietor, categories, tech stack, local dev scripts)
+
+### Files Modified
+- `src/main.jsx` (Explicitly imported `./styles/utilities.css`)
+- `src/styles/utilities.css` (Added complete set of utilities for layout, positioning, typography clamping, focus/hover states, opacity, and pulse animations)
+- `.gitignore` (Added `scratch/` directory)
+- `PROJECT_MEMORY/CURRENT_TASK.md` (Updated current task state)
+
+### Testing
+- `npm run build` completed with exit code 0.
+- `git commit` succeeded with 104 files and 10,516 insertions.
+
+---
+
 ## 2026-10-17 19:56
 
 ### Task
