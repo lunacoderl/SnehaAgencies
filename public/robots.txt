@@ -1,0 +1,9 @@
+# Robots.txt for Sneha Agencies (Kakinada)
+User-agent: *
+Allow: /
+
+# Disallow internal query parameter spikes if needed
+Disallow: /*?*print=true
+
+# Sitemap index
+Sitemap: https://snehaagencies.com/sitemap.xml
