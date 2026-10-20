@@ -206,5 +206,44 @@ export const APPLICATIONS = [
     typicalThickness: "10mm to 50mm Widths",
     idealSectors: ["Living Room Feature Walls", "Ceilings", "Designer Wardrobes"],
     image: "/images/metal-trims-banner.jpg"
+  },
+  {
+    id: "sunken-area-filling",
+    slug: "sunken-area-filling",
+    title: "Sunken Area & Toilet Slab Filling (Foam Concrete Work)",
+    category: "Waterproofing & Wet Areas",
+    summary: "Ultra-lightweight cellular concrete (CLC) filling for toilet, bathroom, and balcony sunken slabs, eliminating heavy dead load.",
+    shortDesc: "Ultra-lightweight cellular concrete (CLC) filling for toilet, bathroom, and balcony sunken slabs, eliminating heavy dead load.",
+    problemUseCase: "Traditional sunken slab filling using brickbat coba, cinder, or construction debris adds 1800 - 2200 kg/m³ of dead weight to building slabs, exerts point loads that crack concealed PVC plumbing joints, and retains moisture causing ceiling seepage.",
+    challengesSolved: [
+      "Massive structural dead load (saving up to 70% weight vs brickbat coba)",
+      "Accidental damage and point-load cracking of PVC/CPVC plumbing pipes",
+      "Water retention and foul odor caused by loose cinder/debris pockets",
+      "Labor-intensive manual handling of heavy debris to upper floors"
+    ],
+    suitableMaterials: "Foam Concrete (Lightweight Concrete / CLC) with on-site machine pumping directly to high-rise floors.",
+    recommendedProducts: ["foam-concrete-work", "bison-panel-cement-board", "birla-white-wallseal"],
+    selectionGuidance: "Foam concrete is prepared on site with special foaming agents and pumped as a free-flowing slurry. It effortlessly envelops all complex sanitary plumbing lines without compaction, then cures into a stable, lightweight monolithic mass (density 400 - 800 kg/m³).",
+    keyAdvantages: [
+      "70% lighter dead load compared to conventional debris/brickbat filling",
+      "Flows freely around pipes — zero vibration, zero pipe displacement or joint damage",
+      "Integrated thermal insulation protecting top floor and lower floor ceilings",
+      "Seamless, monolithic fill preventing water pockets and pest breeding"
+    ],
+    specs: [
+      "Density: 400 – 800 kg/m³ (Customizable)",
+      "Compressive Strength: 1.0 – 5.0 N/mm²",
+      "Thermal Conductivity: 0.08 – 0.16 W/mK",
+      "Zero Vibration Required (Self-Leveling Slurry)"
+    ],
+    typicalThickness: "100 mm to 450 mm sunken depth",
+    idealSectors: [
+      "Multi-Storey Residential Apartments",
+      "Commercial Buildings & Malls",
+      "Hotels & Hospital Restrooms",
+      "Luxury Villas & Terrace Roofs"
+    ],
+    image: "/images/foam-concrete-sunken.jpg"
   }
 ];
+

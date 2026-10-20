@@ -34,7 +34,8 @@ export default function HomePage() {
       wallFinishes: false,
       cementBoards: false,
       locksHardware: false,
-      metalTrims: false
+      metalTrims: false,
+      foamConcrete: false
     },
     notes: ''
   });
@@ -109,11 +110,35 @@ export default function HomePage() {
                   letterSpacing: '0.14em',
                   textTransform: 'uppercase',
                   color: 'var(--color-yellow)',
-                  marginBottom: '1rem'
+                  marginBottom: '0.75rem'
                 }}
               >
                 <span>BASED IN KAKINADA</span>
                 <span style={{ width: '40px', height: '1.5px', backgroundColor: 'var(--color-yellow)' }}></span>
+              </div>
+
+              {/* Foam Concrete Work Announcement Badge */}
+              <div style={{ marginBottom: '1.25rem' }}>
+                <Link
+                  to="/products/foam-concrete-work"
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '0.6rem',
+                    backgroundColor: 'rgba(229, 169, 60, 0.16)',
+                    border: '1px solid rgba(229, 169, 60, 0.45)',
+                    padding: '0.4rem 0.9rem',
+                    borderRadius: '9999px',
+                    textDecoration: 'none',
+                    transition: 'all 0.2s ease',
+                    boxShadow: '0 2px 8px rgba(0,0,0,0.2)'
+                  }}
+                >
+                  <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: 'var(--color-yellow)', display: 'inline-block' }}></span>
+                  <span style={{ fontSize: '0.78rem', fontWeight: 700, letterSpacing: '0.04em', color: 'var(--color-yellow)' }}>
+                    FOAM CONCRETE WORK AVAILABLE (LIGHTWEIGHT CONCRETE) — FOR SUNKEN AREAS →
+                  </span>
+                </Link>
               </div>
 
               {/* Main Headline */}
@@ -414,6 +439,205 @@ export default function HomePage() {
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   loading="lazy"
                 />
+              </div>
+            </div>
+
+            {/* 5. Foam Concrete Work (Lightweight Concrete) */}
+            <div
+              className="card"
+              style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                alignItems: 'center',
+                backgroundColor: '#ffffff',
+                border: '2px solid rgba(229, 169, 60, 0.45)',
+                boxShadow: '0 8px 24px rgba(229, 169, 60, 0.12)'
+              }}
+            >
+              <div style={{ padding: '2.5rem' }}>
+                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '0.75rem' }}>
+                  <span className="badge badge-yellow">
+                    Specialized Civil Service
+                  </span>
+                  <span className="badge badge-green">
+                    Sunken Area Solution
+                  </span>
+                </div>
+                <h3 style={{ fontSize: '1.9rem', marginBottom: '0.75rem', fontFamily: 'Playfair Display, serif' }}>
+                  Foam Concrete Work (Lightweight Concrete)
+                </h3>
+                <p style={{ color: 'var(--color-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
+                  Professional on-site cellular lightweight concrete (CLC) pumping and casting service. Specially engineered for filling toilet sunken slabs, balconies, and trenches without overloading building slabs. 70% lighter than traditional brickbat coba, with zero risk of crushing concealed PVC plumbing pipes.
+                </p>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
+                  <Link to="/products/foam-concrete-work" className="btn btn-primary">
+                    <span>Explore Foam Concrete Work</span>
+                    <ArrowRight size={16} />
+                  </Link>
+                  <Link to="/quote?app=sunken-area-filling" className="btn btn-outline">
+                    <span>Get Sunken Filling Quote</span>
+                  </Link>
+                </div>
+              </div>
+              <div style={{ height: '100%', minHeight: '280px', overflow: 'hidden' }}>
+                <img
+                  src="/images/foam-concrete-sunken.jpg"
+                  alt="Foam Concrete Slurry Pumping into Sunken Slab Area around Plumbing Pipes"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* =========================================================================
+          SECTION 3B: FOAM CONCRETE DEEP-DIVE SHOWCASE (Sunken Slabs & Insulation)
+      ========================================================================= */}
+      <section style={{ padding: '4.5rem 0', backgroundColor: '#191024', color: '#ffffff', position: 'relative' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
+            <span
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.5rem',
+                backgroundColor: 'rgba(229, 169, 60, 0.15)',
+                color: 'var(--color-yellow)',
+                border: '1px solid rgba(229, 169, 60, 0.35)',
+                padding: '0.35rem 0.9rem',
+                borderRadius: '9999px',
+                fontSize: '0.8rem',
+                fontWeight: 700,
+                letterSpacing: '0.08em',
+                textTransform: 'uppercase',
+                marginBottom: '1rem'
+              }}
+            >
+              SPECIALIZED ON-SITE CIVIL WORK
+            </span>
+            <h2 className="editorial" style={{ fontSize: 'clamp(2rem, 4vw, 3.2rem)', color: '#ffffff', marginBottom: '1rem' }}>
+              Foam Concrete Work Available <br />
+              <span style={{ color: 'var(--color-yellow)', fontStyle: 'italic' }}>(Lightweight Concrete for Sunken Areas)</span>
+            </h2>
+            <p style={{ color: '#cfc9db', maxWidth: '680px', margin: '0 auto', fontSize: '1.05rem', lineHeight: 1.6 }}>
+              The modern, engineer-approved solution to fill toilet sunken slabs and terrace screeds without dead weight overload, cracking, or pipe joint damage.
+            </p>
+          </div>
+
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+              gap: '3rem',
+              alignItems: 'center',
+              marginBottom: '3rem'
+            }}
+          >
+            {/* Visual Column with Badge */}
+            <div style={{ position: 'relative', borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: '0 16px 36px rgba(0,0,0,0.4)', border: '1px solid rgba(255,255,255,0.15)' }}>
+              <img
+                src="/images/foam-concrete-sunken.jpg"
+                alt="Foam concrete slurry pouring around PVC sanitary pipes in toilet sunken slab"
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+                loading="lazy"
+              />
+              <div
+                style={{
+                  position: 'absolute',
+                  bottom: '1rem',
+                  left: '1rem',
+                  right: '1rem',
+                  backgroundColor: 'rgba(25, 16, 36, 0.88)',
+                  backdropFilter: 'blur(8px)',
+                  padding: '1rem 1.25rem',
+                  borderRadius: 'var(--radius-md)',
+                  border: '1px solid rgba(229, 169, 60, 0.4)',
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center'
+                }}
+              >
+                <div>
+                  <span style={{ display: 'block', fontSize: '0.75rem', textTransform: 'uppercase', color: 'var(--color-yellow)', fontWeight: 700 }}>
+                    Cellular Lightweight Concrete (CLC)
+                  </span>
+                  <strong style={{ fontSize: '0.95rem', color: '#ffffff' }}>Density: 400 – 800 kg/m³</strong>
+                </div>
+                <span style={{ backgroundColor: 'var(--color-green)', color: '#ffffff', padding: '0.3rem 0.75rem', borderRadius: '9999px', fontSize: '0.8rem', fontWeight: 700 }}>
+                  70% Lighter
+                </span>
+              </div>
+            </div>
+
+            {/* Content & Comparison Column */}
+            <div>
+              <h3 style={{ fontSize: '1.5rem', color: '#ffffff', marginBottom: '1.25rem', fontFamily: 'Playfair Display, serif' }}>
+                Why Leading Builders in Kakinada Choose Foam Concrete over Brickbat Coba:
+              </h3>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
+                {[
+                  {
+                    title: '70% Reduction in Structural Dead Load',
+                    desc: 'Traditional brickbat coba / cinder adds 1800 - 2200 kg/m³ of dead weight to building slabs. Foam concrete weighs only 400 - 800 kg/m³, preserving structural margins.'
+                  },
+                  {
+                    title: 'Zero Damage to Concealed Plumbing Lines',
+                    desc: 'Flows smoothly as an aerated liquid slurry around complex PVC/CPVC drainage pipes. Zero vibration, zero tamping, zero pipe displacement or cracked joints.'
+                  },
+                  {
+                    title: 'Monolithic, Void-Free & Anti-Seepage',
+                    desc: 'Forms a continuous solid mass that eliminates air gaps, insect harborage, and stagnant moisture pockets that cause lower floor ceiling dampness.'
+                  },
+                  {
+                    title: 'Machine Pumping Directly to High Floors',
+                    desc: 'Mobile pumping units pump directly from ground level to 1st, 5th, or 10th floors at up to 10 m³/hour. No crane dependency, no labor-intensive rubble lifting.'
+                  }
+                ].map((item, idx) => (
+                  <div
+                    key={idx}
+                    style={{
+                      display: 'flex',
+                      gap: '0.75rem',
+                      alignItems: 'flex-start',
+                      backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                      padding: '1rem 1.25rem',
+                      borderRadius: 'var(--radius-md)',
+                      border: '1px solid rgba(255, 255, 255, 0.08)'
+                    }}
+                  >
+                    <CheckCircle2 size={20} color="var(--color-yellow)" style={{ flexShrink: 0, marginTop: '0.15rem' }} />
+                    <div>
+                      <strong style={{ display: 'block', color: '#ffffff', fontSize: '0.95rem', marginBottom: '0.2rem' }}>
+                        {item.title}
+                      </strong>
+                      <span style={{ color: '#b9b3c4', fontSize: '0.85rem', lineHeight: 1.5, display: 'block' }}>
+                        {item.desc}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Action Buttons */}
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
+                <Link to="/quote?app=sunken-area-filling" className="btn btn-primary btn-lg">
+                  <FileText size={18} />
+                  <span>Request Foam Concrete Quote</span>
+                </Link>
+
+                <a
+                  href={`https://wa.me/${COMPANY.whatsappRaw}?text=${encodeURIComponent('Hi Sneha Agencies, I need details & quote for Foam Concrete Work for sunken area filling at my site.')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-white btn-lg"
+                  style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
+                >
+                  <MessageCircle size={18} color="#2ecc71" />
+                  <span>WhatsApp Site Engineer</span>
+                </a>
               </div>
             </div>
           </div>
@@ -1081,6 +1305,31 @@ export default function HomePage() {
                         <div>
                           <span style={{ display: 'block', fontSize: '0.88rem', fontWeight: 600 }}>Metal Trims</span>
                           <span style={{ fontSize: '0.75rem', color: 'var(--color-muted)' }}>SS strips and trims</span>
+                        </div>
+                      </label>
+
+                      <label
+                        style={{
+                          display: 'flex',
+                          alignItems: 'flex-start',
+                          gap: '0.5rem',
+                          cursor: 'pointer',
+                          padding: '0.6rem 0.75rem',
+                          borderRadius: 'var(--radius-sm)',
+                          backgroundColor: enquiryForm.materials.foamConcrete ? 'rgba(29, 111, 66, 0.08)' : 'var(--color-surface-subtle)',
+                          border: enquiryForm.materials.foamConcrete ? '1px solid var(--color-green)' : '1px solid var(--color-border)',
+                          gridColumn: '1 / -1'
+                        }}
+                      >
+                        <input
+                          type="checkbox"
+                          checked={enquiryForm.materials.foamConcrete}
+                          onChange={() => handleCheckboxChange('foamConcrete')}
+                          style={{ marginTop: '0.2rem', accentColor: 'var(--color-green)' }}
+                        />
+                        <div>
+                          <span style={{ display: 'block', fontSize: '0.88rem', fontWeight: 600 }}>Foam Concrete Work (Lightweight Concrete)</span>
+                          <span style={{ fontSize: '0.75rem', color: 'var(--color-muted)' }}>Specialized filling for sunken areas, toilet slabs & terrace insulation</span>
                         </div>
                       </label>
                     </div>

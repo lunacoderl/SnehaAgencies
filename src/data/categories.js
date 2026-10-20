@@ -68,5 +68,31 @@ export const CATEGORIES = [
     productCount: "5 Metallic Finishes",
     keyFeatures: ["Grade 304 Stainless Steel", "Titanium PVD Coated", "Peel-and-Stick Adhesive Backing", "Zero Tarnishing in Coastal Humidity"],
     applications: ["Wardrobe Inlays", "Feature Wall Fluting", "Ceiling Metallic Borders", "Tile Transition Lines"]
+  },
+  {
+    id: "foam-concrete",
+    slug: "foam-concrete",
+    name: "Foam Concrete Work (Lightweight Concrete)",
+    tagline: "Cellular lightweight concrete (CLC) pumping and casting for sunken areas & terrace insulation.",
+    subtitle: "Cellular lightweight concrete (CLC) pumping and casting for sunken areas & terrace insulation.",
+    description: "On-site foam concrete (cellular lightweight concrete - CLC) pumping and casting services. Specially engineered to fill toilet sunken slabs, balconies, and trenches without adding dead load, protecting concealed plumbing lines while delivering superior thermal and acoustic insulation.",
+    image: "/images/foam-concrete-sunken.jpg",
+    realStockImage: "/images/foam-concrete-sunken.jpg",
+    brands: ["Sneha Agencies Specialized Works"],
+    productCount: "On-Site Pumping & Casting",
+    keyFeatures: [
+      "Up to 70% lighter than traditional brickbat coba",
+      "Zero damage to concealed plumbing drainage pipes",
+      "Self-compacting & seamless void filling",
+      "Superior thermal insulation & fire resistance"
+    ],
+    applications: [
+      "Toilet & Bathroom Sunken Slabs",
+      "Balcony & Kitchen Sunken Areas",
+      "Terrace Heat Insulation Screeds",
+      "Floor Level Raising & Mezzanine Decks",
+      "Trench & Underground Pipe Encapsulation"
+    ]
   }
 ];
+

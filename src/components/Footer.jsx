@@ -100,7 +100,8 @@ export default function Footer() {
                 { name: 'Cement-Bonded Boards (Bison Panel)', path: '/products?category=cement-boards' },
                 { name: 'Prelaminated Boards (Bison Lam)', path: '/products?category=prelaminated-boards' },
                 { name: 'Locks & Hardware (Spider Zinnia)', path: '/products?category=locks-hardware' },
-                { name: 'Metal Trims (SS Self Adhesive Strips)', path: '/products?category=metal-trims' }
+                { name: 'Metal Trims (SS Self Adhesive Strips)', path: '/products?category=metal-trims' },
+                { name: 'Foam Concrete Work (Sunken Areas)', path: '/products/foam-concrete-work' }
               ].map((cat) => (
                 <li key={cat.name}>
                   <Link

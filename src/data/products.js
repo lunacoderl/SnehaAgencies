@@ -586,5 +586,56 @@ export const PRODUCTS = [
       { title: "Spider Zinnia Hardware MRP Catalog (April 2026 Edition)", size: "33.9 MB", file: "/Spider_Zinnia_MRP_15_APR-26.pdf" }
     ],
     relatedProducts: ["bison-lam-prelaminated", "spider-mortice-lockset-az41e"]
+  },
+  // --- 6. FOAM CONCRETE & SPECIALIZED CIVIL WORKS ---
+  {
+    id: "foam-concrete-work",
+    slug: "foam-concrete-work",
+    name: "Foam Concrete Work (Lightweight Concrete for Sunken Areas)",
+    brand: "Sneha Agencies Specialized Works",
+    brandId: "sneha-services",
+    category: "Foam Concrete Work",
+    categoryId: "foam-concrete",
+    shortDesc: "On-site foam concrete (cellular lightweight concrete / CLC) pumping and casting for toilet sunken slabs, floor level raising, and terrace heat insulation in Kakinada.",
+    longDesc: "Sneha Agencies provides professional on-site Foam Concrete Work (Cellular Lightweight Concrete - CLC) across Kakinada, Rajahmundry, and East Godavari. Utilizing modern mobile foam generator units and high-pressure slurry pumps, our technical crew pumps aerated cement foam directly to any floor level. It gently encapsulates delicate sanitary drainage and CPVC pipes in sunken slabs, eliminates dangerous dead load on multi-storey structures, prevents water pooling, and provides exceptional thermal and acoustic insulation.",
+    image: "/images/foam-concrete-sunken.jpg",
+    gallery: [
+      "/images/foam-concrete-sunken.jpg",
+      "/images/cement-boards-banner.jpg",
+      "/images/b7c53c73-36b1-4f3e-9511-82738ff5d972.jpg"
+    ],
+    features: [
+      "Ultra-Lightweight: 400 to 800 kg/m³ (approx. 70% lighter than brickbat coba)",
+      "Protects concealed PVC/CPVC plumbing pipes from point-load impact, crushing, or displacement",
+      "Direct machine pumping to upper floors with zero crane delays and zero debris mess",
+      "Self-compacting and self-leveling — no mechanical vibration or ramming required",
+      "Superior thermal insulation (K-value: 0.08 - 0.16 W/mK) keeping floor slabs naturally cooler",
+      "Monolithic void-free fill eliminating pest harborage, stagnant moisture, and damp odors"
+    ],
+    specifications: [
+      { label: "Dry Density Range", value: "400 kg/m³ to 800 kg/m³ (customized to structural engineer specs)" },
+      { label: "Compressive Strength", value: "1.0 N/mm² to 5.0 N/mm² (28 days)" },
+      { label: "Thermal Conductivity", value: "0.08 to 0.16 W/mK" },
+      { label: "Slump / Consistency", value: "High flow self-leveling cellular slurry" },
+      { label: "Execution Method", value: "On-site generator mixing & direct hose pumping" },
+      { label: "Recommended Sunken Depth", value: "100 mm to 600 mm" },
+      { label: "Service Area", value: "Kakinada, Rajahmundry, Samalkot, Peddapuram & East Godavari" },
+      { label: "Pricing Model", value: "Per Cubic Foot (cft) or Per Square Foot (sq.ft) based on depth" }
+    ],
+    availableVariants: [
+      "Sunken Slab Grade (400 - 600 kg/m³)",
+      "Floor Raising & Trench Grade (600 - 800 kg/m³)",
+      "Terrace Thermal Insulation Screed (300 - 500 kg/m³)"
+    ],
+    sizes: ["Custom Site Volume (cft / m³)"],
+    finishes: ["Smooth Screeded Top / Ready for Tile Bedding"],
+    interiorExterior: "Interior (Sunken Slabs) & Exterior (Roof Terraces)",
+    availability: "Machinery & Technical Team Ready on Site Notice",
+    applications: ["sunken-area-filling", "kitchen-platforms"],
+    downloads: [
+      { title: "Foam Concrete Technical Specification & Sunken Filling Guide", size: "1.4 MB", file: "#" }
+    ],
+    relatedProducts: ["bison-panel-cement-board", "birla-white-wallseal"]
   }
 ];
+

@@ -3,6 +3,38 @@
 All changes to this project are recorded here in reverse-chronological order.
 This file is append-only — do not rewrite or remove previous entries.
 
+## 2026-10-20 10:15
+
+### Task
+Add Foam Concrete Work Available (Lightweight Concrete) for Sunken Areas (toilet slabs, floor level raising, terrace heat insulation).
+
+### Result
+- Integrated specialized civil service for cellular lightweight concrete (CLC) pumping and casting across Kakinada and East Godavari.
+- Generated realistic on-site engineering photography (`public/images/foam-concrete-sunken.jpg`) showing foam concrete slurry being pumped around concealed sanitary pipes in a bathroom sunken slab.
+- Created dedicated application entry `sunken-area-filling` in `src/data/applications.js` with technical specs, dead load reduction statistics (70% weight savings over brickbat coba), and plumbing protection guidelines.
+- Added product SKU `foam-concrete-work` in `src/data/products.js` with density variations (400 - 800 kg/m³), compressive strengths, execution methods, and download links.
+- Added 6th category `foam-concrete` in `src/data/categories.js` so it automatically appears in filterable catalogue and quotation forms.
+- Added announcement badge on Hero Section and a dedicated Section 3B Feature Showcase on `HomePage.jsx` with comparison cards (Conventional Brickbat Coba vs Foam Concrete) and direct WhatsApp / Quote CTAs.
+- Added `foamConcrete` selection checkbox in Section 9 Quick Project Enquiry form on `HomePage.jsx` and updated `public/sitemap.xml` and `src/components/Footer.jsx`.
+
+### Files Created
+- `public/images/foam-concrete-sunken.jpg` (Generated authentic on-site foam concrete pumping photo)
+
+### Files Modified
+- `src/data/categories.js` (Added 6th category: Foam Concrete Work / Lightweight Concrete)
+- `src/data/applications.js` (Added `sunken-area-filling` application profile)
+- `src/data/products.js` (Added `foam-concrete-work` SKU with detailed specs and technical parameters)
+- `src/pages/HomePage.jsx` (Added Hero pill, 5th Category Card, dedicated Deep-Dive Showcase Section 3B, and Enquiry Form checkbox)
+- `src/components/Footer.jsx` (Added Foam Concrete Work in product range column)
+- `public/sitemap.xml` (Added `/products/foam-concrete-work` with 0.9 priority)
+- `PROJECT_MEMORY/CURRENT_TASK.md` (Updated task status)
+
+### Testing
+- `node scratch/test-data.js` passed all 5 stages (6 categories, 5 brands, 14 products, 9 applications).
+- `npm run build` completed with exit code 0 in 7.31s.
+
+---
+
 ## 2026-10-17 20:20
 
 ### Task
