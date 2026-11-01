@@ -44,7 +44,9 @@ Phase 5: Pushed to GitHub & Ready for Vercel Deployment
 
 ## Verified Business Credentials
 - Entity Name: Sneha Agencies (స్నేహ ఏజెన్సీస్)
-- Proprietor: Sri P. Satyanarayana Murthy
+- Managing Partners: PRGK Raju & A. Srinivasa Varma
+- Experience: 12+ Years of Trusted Distribution
+- Domain: https://snehaagencies.online
 - GSTIN: `37AAXFS3750J1ZG`
 - Address: 67-13-7, Ground Floor, Lakshmi Nilayam, Road No : 4, Nagamalli Thota, Rajeswar Nagar, Kakinada - 533003, Andhra Pradesh
 - Primary Contact: `+91 92478 66866`

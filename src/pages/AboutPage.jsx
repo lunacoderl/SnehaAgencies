@@ -81,7 +81,7 @@ export default function AboutPage() {
           "mainEntity": {
             "@type": "LocalBusiness",
             "name": COMPANY.name,
-            "legalName": `${COMPANY.name} (Prop: ${COMPANY.proprietor})`,
+            "legalName": `${COMPANY.name} (Managing Partners: ${COMPANY.managingPartners})`,
             "taxID": COMPANY.gstin,
             "telephone": COMPANY.primaryPhone,
             "address": {
@@ -122,13 +122,13 @@ export default function AboutPage() {
                   Delivering Quality Materials That Form The Backbone Of Modern Structures
                 </h1>
                 <p className="text-base sm:text-lg text-textMuted leading-relaxed mb-6">
-                  Founded under the leadership of <strong className="text-textDark font-semibold">Sri P. Satyanarayana Murthy</strong>, <strong className="text-primary font-semibold">Sneha Agencies (స్నేహ ఏజెన్సీస్)</strong> has grown to become East Godavari's most reputable distributor of high-performance cement particle boards, decorative laminates, acrylic wall plasters, and premium architectural hardware.
+                  Founded under the leadership of <strong className="text-textDark font-semibold">Managing Partners: PRGK Raju & A. Srinivasa Varma</strong>, <strong className="text-primary font-semibold">Sneha Agencies (స్నేహ ఏజెన్సీస్)</strong> has built 12 years of industry leadership as East Godavari's most reputable distributor of high-performance cement particle boards, decorative laminates, acrylic wall plasters, and premium architectural hardware.
                 </p>
 
                 {/* Highlights pill grid */}
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 mb-8">
                   <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200">
-                    <span className="block text-2xl font-extrabold text-primary font-heading">15+</span>
+                    <span className="block text-2xl font-extrabold text-primary font-heading">12+</span>
                     <span className="text-xs text-textMuted font-medium">Years Serving Andhra</span>
                   </div>
                   <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200">
@@ -181,8 +181,8 @@ export default function AboutPage() {
                     </div>
 
                     <div>
-                      <span className="text-stone-400 block text-xs">Proprietor:</span>
-                      <span className="text-stone-200 font-medium">{COMPANY.proprietor}</span>
+                      <span className="text-stone-400 block text-xs">Managing Partners:</span>
+                      <span className="text-stone-200 font-medium">{COMPANY.managingPartners}</span>
                     </div>
 
                     <div className="p-3 rounded-lg bg-stone-800/80 border border-stone-700">

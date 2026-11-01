@@ -8,7 +8,9 @@
 ## 🏢 Business Overview
 
 - **Firm Name**: Sneha Agencies
-- **Proprietor**: Sri P. Satyanarayana Murthy
+- **Managing Partners**: PRGK Raju & A. Srinivasa Varma
+- **Experience**: 12+ Years of Trusted Service in Andhra Pradesh
+- **Domain**: https://snehaagencies.online
 - **GSTIN**: `37AAXFS3750J1ZG`
 - **Showroom & Godown Address**: 67-13-7, Ground Floor, Lakshmi Nilayam, Road No: 4, Nagamalli Thota, Rajeswar Nagar, Kakinada - 533003, Andhra Pradesh
 - **Phone Primary**: [+91 92478 66866](tel:+919247866866)

@@ -39,7 +39,7 @@ export default function PrivacyPolicyPage() {
             <section>
               <h2 className="font-heading text-xl font-bold text-textDark mb-3">1. Overview & Commitment</h2>
               <p>
-                Sneha Agencies ("we," "us," or "our"), operating under the proprietorship of Sri P. Satyanarayana Murthy (GSTIN: {COMPANY.gstin}) at Lakshmi Nilayam, Nagamalli Thota, Kakinada - 533003, Andhra Pradesh, respects your personal privacy. This policy outlines how we collect, handle, and safeguard information provided by visitors and commercial clients using our website.
+                Sneha Agencies ("we," "us," or "our"), operating under the leadership of Managing Partners: PRGK Raju & A. Srinivasa Varma (GSTIN: {COMPANY.gstin}) at Lakshmi Nilayam, Nagamalli Thota, Kakinada - 533003, Andhra Pradesh, respects your personal privacy. This policy outlines how we collect, handle, and safeguard information provided by visitors and commercial clients using our website.
               </p>
             </section>
 

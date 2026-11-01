@@ -612,7 +612,7 @@ Please provide official pricing and availability.`;
                     Commercial Desk Hotline
                   </h4>
                   <p className="text-xs text-stone-300 leading-relaxed mb-4">
-                    Speak directly with Sri P. Satyanarayana Murthy or our sales engineers for emergency site dispatches:
+                    Speak directly with Managing Partners (PRGK Raju & A. Srinivasa Varma) or our sales engineers for emergency site dispatches:
                   </p>
 
                   <div className="space-y-2">

@@ -200,6 +200,16 @@ export default function HomePage() {
               >
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
                   <div style={{ backgroundColor: 'rgba(255, 255, 255, 0.08)', padding: '0.5rem', borderRadius: '50%' }}>
+                    <Clock size={18} color="var(--color-yellow)" />
+                  </div>
+                  <div>
+                    <span style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: '#ffffff' }}>12+ Years</span>
+                    <span style={{ fontSize: '0.72rem', color: '#9d96ab' }}>of Trust in AP</span>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
+                  <div style={{ backgroundColor: 'rgba(255, 255, 255, 0.08)', padding: '0.5rem', borderRadius: '50%' }}>
                     <Layers size={18} color="var(--color-yellow)" />
                   </div>
                   <div>
@@ -267,10 +277,10 @@ export default function HomePage() {
               ABOUT SNEHA AGENCIES
             </span>
             <h2 className="section-title" style={{ marginBottom: '1.25rem' }}>
-              Local building-material distribution for project & bulk requirements.
+              Local building-material distribution with 12+ years of industry trust.
             </h2>
             <p style={{ fontSize: '1.05rem', color: '#4d4b54', lineHeight: 1.7, marginBottom: '1.75rem' }}>
-              Headquartered in Kakinada, Sneha Agencies supplies verified wall finishing compounds, cement-bonded particle boards, prelaminated boards, and precision door hardware directly from leading manufacturers like NCL Alltek, Bison Panel, and Spider. We assist homeowners, contractors, architects, and institutions with material selection, stock availability, and transparent quotations.
+              Headquartered in Kakinada with over 12 years of serving Andhra Pradesh, Sneha Agencies supplies verified wall finishing compounds, cement-bonded particle boards, prelaminated boards, foam concrete solutions, and precision door hardware directly from leading manufacturers like NCL Alltek, Bison Panel, and Spider. Managed by Managing Partners PRGK Raju & A. Srinivasa Varma, we assist homeowners, contractors, architects, and institutions with material selection, stock availability, and transparent quotations.
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
               <Link to="/about" className="btn btn-outline">

@@ -114,7 +114,7 @@ export default function ContactPage() {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": COMPANY.name,
-          "legalName": `${COMPANY.name} (Prop: ${COMPANY.proprietor})`,
+          "legalName": `${COMPANY.name} (Managing Partners: ${COMPANY.managingPartners})`,
           "telephone": COMPANY.primaryPhone,
           "email": COMPANY.email,
           "taxID": COMPANY.gstin,
@@ -218,7 +218,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="pt-4 mt-4 border-t border-stone-100 text-xs text-textMuted">
-                Proprietor: <span className="font-medium text-stone-800">{COMPANY.proprietor}</span>
+                Managing Partners: <span className="font-medium text-stone-800">{COMPANY.managingPartners}</span>
               </div>
             </div>
 

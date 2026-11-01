@@ -22,7 +22,12 @@ const hoursDetails = {
 export const COMPANY = {
   name: "Sneha Agencies",
   nameRegional: "స్నేహ ఏజెన్సీస్",
-  proprietor: "Sri P. Satyanarayana Murthy",
+  designation: "Managing Partners",
+  managingPartners: "PRGK Raju & A. Srinivasa Varma",
+  managingPartner: "PRGK Raju & A. Srinivasa Varma",
+  proprietor: "PRGK Raju & A. Srinivasa Varma", // alias maintained for backwards compatibility
+  yearsOfExperience: "12+ Years",
+  experienceYears: 12,
   tagline: "Building Material Solutions",
   motto: "Building Better Spaces Together",
   role: "Authorised Distributor & Building Material Supplier",

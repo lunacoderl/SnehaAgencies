@@ -3,6 +3,35 @@
 All changes to this project are recorded here in reverse-chronological order.
 This file is append-only — do not rewrite or remove previous entries.
 
+## 2026-11-01 22:45
+
+### Task
+Update firm leadership to Managing Partners (PRGK Raju & A. Srinivasa Varma) and correct experience duration to 12+ years across all application touchpoints, documentation, and push to GitHub.
+
+### Result
+- Domain confirmed live at `https://snehaagencies.online`.
+- Replaced previous single proprietorship references with "Managing Partners: PRGK Raju & A. Srinivasa Varma" across data layers, about page, contact page, privacy policy, quote page, and README.
+- Updated business track record from 10 / 15 years to 12+ years ("12+ Years Serving Andhra" and "12+ Years of Trust in AP") on About Page and Home Page Hero / Section 2.
+- Maintained backward compatibility aliases in `src/data/company.js`.
+- Verified clean data audits (`node scratch/test-data.js`) and production build (`npm run build` -> 0 errors).
+
+### Files Modified
+- `src/data/company.js` (Added `managingPartners`, `managingPartner`, `designation`, `yearsOfExperience`, updated `proprietor` alias)
+- `src/pages/AboutPage.jsx` (Updated legalName schema, leadership paragraph, pill badge to 12+ years, and credentials card)
+- `src/pages/ContactPage.jsx` (Updated legalName schema and showroom contact card label to Managing Partners)
+- `src/pages/PrivacyPolicyPage.jsx` (Updated Section 1 operating leadership description)
+- `src/pages/QuotePage.jsx` (Updated commercial desk hotline contact notice)
+- `src/pages/HomePage.jsx` (Added 12+ Years trust badge in Hero Section 1, updated Section 2 introduction)
+- `README.md` (Updated business overview with Managing Partners, 12+ years experience, and live domain)
+- `PROJECT_MEMORY/CURRENT_TASK.md` (Updated task status)
+- `PROJECT_MEMORY/PROJECT_STATE.md` (Updated business credentials and verified details)
+
+### Testing
+- `node scratch/test-data.js` passed all 5 stages cleanly.
+- `npm run build` completed with 0 errors in 8.73s.
+
+---
+
 ## 2026-10-20 10:15
 
 ### Task
